@@ -16,19 +16,19 @@
     <p><b>HTML </b>(<em>Hyper text Markup Language</em> „Hiperteksto žymėjimo kalba“) - tai kompiuterinė žymėjimo kalba, naudojama pateikti turinį internete. Kalbą standartizuoja W3 konsorciumas.</p>
     <h2>Turinys</h2>
     <ol>
-        <li><a href="">Elementai ir atributai</a></li>
-        <li><a href="">Pagrindinės elementų grupės</a></li>
-        <li><a href="">Versijos</a></li>
+        <li><a href="#section3">Elementai ir atributai</a></li>
+        <li><a href="#section4">Pagrindinės elementų grupės</a></li>
+        <li><a href="#section5">Versijos</a></li>
     </ol>
     <hr>
-    <h2>Elementai ir atributai</h2>
+    <h2 id="section3">Elementai ir atributai</h2>
     <p>Pagrindinis HTML kalbos vienetas yra elementas. Kaip ir XML, HTML elementas turi vardą ir gali turėti bet kokį skaičių atributų. Elemento viduje gali būti tekstas bei kiti elementai. Tiek tekstas, </p>
     <p>tiek ir dukteriniai elementai paprastai gali kartotis ir sekti bet kuria tvarka.</p>
     <p>Elemento atributai turi vardą ir reikšmę. Jei galimi atributai nenurodomi, paprastai galioja sutartos nutylėjimo taisyklės. Pavyzdžiui, HTML fragmentas &lt;<b>font</b> color="red"&gt;&lt;<b>b</b>&gt;r&lt;/<b>b</b>&gt; raudona&lt;/<b>font</b>&gt;</p>
     <p>turi du elementus. Vienas jų (<b>font</b>) perjungia rodomo teksto spalvą į raudoną. Šio elemento viduje esantis antrasis elementas (<b>b</b>), perjungia šriftą į paryškintą. Pirmasis elementas turi vieną atributą (<b>color</b>) su reikšme <b>red</b>. Antrasis elementas atributų neturi.</p>
     <p>HTML kode atributų reikšmes rekomenduojama apgaubti kabutėmis, nors HTML 4.01 standartas to nereikalauja.</p>
     <hr>
-    <h2>Pagrindinės elementų grupės</h2>
+    <h2 id="section4">Pagrindinės elementų grupės</h2>
     <p>HTML kalbos žymėjimo elementai (angl. <em>tags</em> – žymės) skirstomi į:</p>
     <ul>
         <li><b>Struktūrinius.</b> Šie apibrėžia teksto paskirtį, <ul type="none"><li>&lt;h2&gt;Žymėjimo elementai&lt;/h2&gt;</li></ul> Naršyklei nurodo, kad tai yra antro lygio antraštė (angl. <em>header</em>). Standartinė išvaizda gali būti pakeista naudojant stilius (CSS).</li>
@@ -40,5 +40,11 @@
         <li><b>Kiti</b><ul type="none"><li>&lt;img src="/image.gif"&gt;</li></ul>Įkels paveikslėlį „image.gif“</li>
     </ul>
     <hr>
+    <h2 id="section5">Versijos</h2>
+    <p>HTML versija žymima skaičiumi, nurodant versiją ir subversiją, pavyzdžiui, HTML 3.2.</p>
+    <p>Paskutinė W3C rekomenduojama HTML versija 4.01. Po jos HTML pagrindu buvo plėtojamas XHTML standartas, kuris dar labiau atskyrė struktūros logiką nuo vaizdavimo,</p>
+    <p>bei remiasi ne SGML, o XML žymėjimo kalba.</p>
+    <p>2009 m. vasario 12 d. WWW architektų taryba patvirtino <b>HTML 5</b> juodraštį. HTML 5 keičia ir HTML 4, ir XHTML 1, bet išlieka suderinamas</p>
+    <p>su jais. Naujasis standartas smulkiai ir iki galo tiksliai aprašo žymėjimo gaires, nepalikdamas vietos interpretacijai – naršyklės turės vienodai atvaizduoti tinklalapius, vienodai elgtis net ir su HTML rašto klaidomis.</p>
 </body>
 </html>
